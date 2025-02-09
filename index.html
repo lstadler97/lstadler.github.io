@@ -9,37 +9,69 @@
         rel="stylesheet" 
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
         crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+<body class="bs-success-bg-subtle">
 
 <header>
-    <nav class="navbar bg-secondary-subtle ">
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <ul class="navbar-nav d-flex flex-row align-items-start ">
-                <li>
-                    <a class="navbar-brand" href="#">Homepage</a></li>
-                <li class = "nav-item">
-                    <a class = "nav-link" href="#">Blog</a></li>
-                <li class = "nav-item">
-                    <a class = "nav-link" href="#">Über mich</a></li>
-                <li>
-                    <a class = "nav-link disabled" href="#">Gästebuch</a></li> 
+          <a class="navbar-brand" href="#">Meine Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Über mich</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projekte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+              </li>
             </ul>
+          </div>
         </div>
       </nav>
+      
 
 </header>
 
-<body>
-    <div class="container ">
-    <p> Hier könnte Ihre Werbung stehen!</p>
+
+
+    <div class="container main-container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#" class="text-decoration-none">
+                    <div class="card text-center p-4">
+                        <h3>Über mich</h3>
+                        <p>Erfahre mehr über mich und meine Erfahrungen.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="text-decoration-none">
+                    <div class="card text-center p-4">
+                        <h3>Projekte</h3>
+                        <p>Hier findest du eine Auswahl meiner Projekte.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="text-decoration-none">
+                    <div class="card text-center p-4">
+                        <h3>Kontakt</h3>
+                        <p>Nimm Kontakt mit mir auf, oder trag dich in mein Gästebuch ein.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
+
 </body>
 
-<footer>
-    <div class="container ">
-    <p> We always need a footer </p>
-    </div>
-</footer>
+
 
 </html>
