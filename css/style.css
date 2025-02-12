@@ -34,3 +34,52 @@
     transform: scale(1.05);
 }
 
+/* Rundes Profilbild mit Schatten */
+img.rounded-circle {
+    width: 250px; /* Größe anpassen */
+    height: 250px; /* Höhe gleich Breite für perfekten Kreis */
+    object-fit: cover; /* Bildausschnitt anpassen, ohne Verzerrung */
+    border-radius: 50%; /* Macht das Bild rund */
+    border: 5px solid white; /* Weißer Rand */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Leichter Schatten */
+}
+
+/* Hintergrundbild für die About-Seite */
+.about-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url('/lstadler.github.io/assets/images/SegelGelände.jpeg') no-repeat center/cover;
+}
+
+/* Halbdurchsichtige Textbox für bessere Lesbarkeit */
+.about-content {
+    background: rgba(240, 240, 240, 0.8); /* Helles Grau mit Transparenz */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Extra Styling für die Hobby- und Skills-Sektion */
+.about-box {
+    background: rgba(255, 255, 255, 0.8); /* Noch helleres Grau */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.footer {
+    background: #222; /* Dunkler Hintergrund */
+}
+
+.footer-img {
+    width: 100%; /* Bilder füllen den Container */
+    max-width: 150px; /* Optional: Maximale Bildbreite */
+    height: auto;
+    border-radius: 10px; /* Abgerundete Ecken für einen schöneren Look */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2); /* Leichter Schatten */
+}
+
+
+
+
